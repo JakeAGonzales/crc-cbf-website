@@ -1,179 +1,175 @@
 <!DOCTYPE html>
 <html>
 <head>
- <meta charset="utf-8">
- <meta name="description" content="Safe Probabilistic Planning for Human-Robot Interaction using Conformal Risk Control">
- <meta property="og:title" content="Safe Probabilistic Planning for Human-Robot Interaction using Conformal Risk Control"/>
- <meta property="og:description" content="A novel probabilistic safety framework for human-robot interaction using conformal risk control"/>
- <meta name="keywords" content="robotics, human-robot interaction, safety, control barrier functions, conformal prediction">
- <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta name="description" content="Safe Probabilistic Planning for Human-Robot Interaction using Conformal Risk Control">
+  <meta property="og:title" content="Safe Probabilistic Planning for Human-Robot Interaction using Conformal Risk Control"/>
+  <meta property="og:description" content="A novel probabilistic safety framework for human-robot interaction using conformal risk control"/>
+  <meta name="keywords" content="robotics, human-robot interaction, safety, control barrier functions, conformal prediction">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
- <title>Safe Probabilistic Planning for Human-Robot Interaction using Conformal Risk Control</title>
- <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
- <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
- <link rel="stylesheet" href="static/css/bulma.min.css">
- <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
- <link rel="stylesheet" href="static/css/bulma-slider.min.css">
- <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
- <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
- <link rel="stylesheet" href="static/css/index.css">
+  <title>Safe Probabilistic Planning for Human-Robot Interaction using Conformal Risk Control</title>
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
 
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
- <script defer src="static/js/fontawesome.all.min.js"></script>
- <script src="static/js/bulma-carousel.min.js"></script>
- <script src="static/js/bulma-slider.min.js"></script>
- <script src="static/js/index.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
 </head>
 <body>
 
 <section class="hero">
- <div class="hero-body">
-   <div class="container is-max-desktop">
-     <div class="columns is-centered">
-       <div class="column has-text-centered">
-         <h1 class="title is-2 publication-title">Safe Probabilistic Planning for Human-Robot Interaction using Conformal Risk Control</h1>
-         <div class="is-size-5 publication-authors">
-           <span class="author-block">
-             <a href="https://jakeagonzales.github.io">Jake Gonzales</a>
-           </span>
-         </div>
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-2 publication-title">Safe Probabilistic Planning for Human-Robot Interaction using Conformal Risk Control</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://jakeagonzales.github.io">Jake Gonzales</a>
+            </span>
+          </div>
 
-         <div class="is-size-5 publication-authors">
-           <span class="author-block">University of Washington</span>
-         </div>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">University of Washington</span>
+          </div>
 
-         <div class="column has-text-centered">
-           <div class="publication-links">
-             <span class="link-block">
-               <a href="https://arxiv.org/pdf/" class="external-link button is-normal is-rounded is-dark">
-                 <span class="icon">
-                   <i class="fas fa-file-pdf"></i>
-                 </span>
-                 <span>Paper</span>
-               </a>
-             </span>
-             <span class="link-block">
-               <a href="https://arxiv.org/abs/" class="external-link button is-normal is-rounded is-dark">
-                 <span class="icon">
-                   <i class="ai ai-arxiv"></i>
-                 </span>
-                 <span>arXiv</span>
-               </a>
-             </span>
-             <span class="link-block">
-               <a href="#" class="external-link button is-normal is-rounded is-dark">
-                 <span class="icon">
-                   <i class="fab fa-github"></i>
-                 </span>
-                 <span>Code</span>
-               </a>
-             </span>
-           </div>
-         </div>
-       </div>
-     </div>
-   </div>
- </div>
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <span class="link-block">
+                <a href="https://arxiv.org/pdf/" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="#" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 
 <section class="hero is-small">
- <div class="hero-body">
-   <div class="container">
-     <div class="columns is-centered">
-       <div class="column is-one-third">
-         <figure class="image">
-           <img src="static/images/hero.png" alt="Overview of safe human-robot interaction using control barrier functions">
-         </figure>
-       </div>
-     </div>
-   </div>
- </div>
+  <div class="hero-body">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-one-third">
+          <figure class="image">
+            <img src="static/images/hero.png" alt="Overview of safe human-robot interaction using control barrier functions">
+          </figure>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 
 <section class="section hero is-light">
- <div class="container is-max-desktop">
-   <div class="columns is-centered has-text-centered">
-     <div class="column is-four-fifths">
-       <h2 class="title is-3">Abstract</h2>
-       <div class="content has-text-justified">
-         <p>
-           This paper presents a novel probabilistic safety framework for human-robot interaction that combines control barrier functions (CBFs) with conformal risk control (CRC) to provide formal safety guarantees without making distributional assumptions about human behavior. Safe deployment of autonomous robots in human environments remains challenging due to the inherent unpredictability in human actions, with traditional approaches either relying on restrictive distributional assumptions or defaulting to overly conservative worse-case bounds. Our framework addresses these limitations by using CRC to quantify and control the prediction errors in CBF safety values, establishing formal guarantees on the probability of constraint satisfaction during interaction. We further introduce an online update scheme that dynamically adjusts the safety margins produced by CRC based on the current interaction context. Through extensive experiments in challenging human-robot navigation scenarios, we demonstrate that our approach significantly reduces collision rates and safety violations compared to standard CBFs while maintaining high success rates in goal-reaching tasks.
-         </p>
-       </div>
-     </div>
-   </div>
- </div>
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            This paper presents a novel probabilistic safety framework for human-robot interaction that combines control barrier functions (CBFs) with conformal risk control (CRC) to provide formal safety guarantees without making distributional assumptions about human behavior. Safe deployment of autonomous robots in human environments remains challenging due to the inherent unpredictability in human actions, with traditional approaches either relying on restrictive distributional assumptions or defaulting to overly conservative worse-case bounds. Our framework addresses these limitations by using CRC to quantify and control the prediction errors in CBF safety values, establishing formal guarantees on the probability of constraint satisfaction during interaction. We further introduce an online update scheme that dynamically adjusts the safety margins produced by CRC based on the current interaction context. Through extensive experiments in challenging human-robot navigation scenarios, we demonstrate that our approach significantly reduces collision rates and safety violations compared to standard CBFs while maintaining high success rates in goal-reaching tasks.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 
 <section class="section">
- <div class="container">
-   <div class="columns is-centered has-text-centered">
-     <div class="column is-full">
-       <h2 class="title is-3">Single-Agent Simulations</h2>
-       <div class="content">
-         <figure style="width: 120%; margin: 0 auto;">
-           <img src="static/gifs/trajectory_comparison.gif" 
-                alt="Simulation comparison" 
-                style="width: 100%; height: auto;">
-         </figure>
-       </div>
-       
-       <h3 class="title is-4 mt-6">Simulation Comparison</h3>
-       <div class="content">
-         <figure class="image" style="width: 95%; margin: 0 auto;">
-           <img src="static/images/all_trajectories.png" alt="Generated trajectories from 100 trials" style="width: 100%; height: auto;">
-           <figcaption class="has-text-centered">
-             Generated trajectories from 100 trials. (left) Online λ-CBF, (middle) Fixed λ-CBF, (right) Standard CBF. Red trajectories indicate collisions.
-           </figcaption>
-         </figure>
-       </div>
-     </div>
-   </div>
- </div>
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full">
+        <h2 class="title is-3">Single-Agent Simulations</h2>
+        <div class="content">
+          <figure class="image" style="width: 80%; margin: 0 auto;">
+            <img src="static/images/all_trajectories.png" alt="Generated trajectories from 100 trials" style="width: 100%; height: auto;">
+            <figcaption class="has-text-centered">
+              Generated trajectories from 100 trials. (left) Online λ-CBF, (middle) Fixed λ-CBF, (right) Standard CBF. Red trajectories indicate collisions.
+            </figcaption>
+          </figure>
+        </div>
+        
+        <h3 class="title is-4 mt-6">Simulation Comparison</h3>
+        <div class="content">
+          <figure class="image" style="width: 95%; margin: 0 auto;">
+            <img src="static/gifs/trajectory_comparison.gif" alt="Simulation comparison" style="width: 100%; height: auto;">
+          </figure>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 
 <section class="section">
- <div class="container">
-   <div class="columns is-centered has-text-centered">
-     <div class="column is-full">
-       <h2 class="title is-3">Multi-Agent Simulation</h2>
-       <div class="content">
-         <figure style="width: 120%; margin: 0 auto;">  
-           <img src="static/paper_results/test1/comparison.gif" 
-                alt="Multi-agent simulation comparison" 
-                style="width: 100%; height: auto;">
-         </figure>
-       </div>
-       
-       <div class="content mt-6">
-         <figure class="image" style="width: 90%; margin: 0 auto;">
-           <img src="static/paper_results/test1/multi_sim_metrics.png" alt="Multi-agent simulation metrics" style="width: 100%; height: auto;">
-         </figure>
-       </div>
-     </div>
-   </div>
- </div>
+  <div class="container">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full">
+        <h2 class="title is-3">Multi-Agent Simulation</h2>
+        <div class="content">
+          <figure class="large-gif" style="width: 95%; margin: 0 auto;">
+            <img src="static/paper_results/test1/comparison.gif" alt="Multi-agent simulation comparison" style="width: 100%; height: auto;">
+          </figure>
+        </div>
+        
+        <div class="content mt-6">
+          <figure class="image" style="width: 90%; margin: 0 auto;">
+            <img src="static/paper_results/test1/multi_sim_metrics.png" alt="Multi-agent simulation metrics" style="width: 100%; height: auto;">
+          </figure>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 
 <section class="section">
- <div class="container is-max-desktop">
-   <div class="columns is-centered has-text-centered">
-     <div class="column is-full">
-       <h2 class="title is-3">Computing Safety Margins</h2>
-       <div class="content">
-         <figure class="image" style="width: 90%; margin: 0 auto;">
-           <img src="static/paper_results/empirical_risk.png" alt="Empirical risk analysis" style="width: 100%; height: auto;">
-         </figure>
-       </div>
-     </div>
-   </div>
- </div>
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full">
+        <h2 class="title is-3">Computing Safety Margins</h2>
+        <div class="content">
+          <figure class="image" style="width: 90%; margin: 0 auto;">
+            <img src="static/paper_results/empirical_risk.png" alt="Empirical risk analysis" style="width: 100%; height: auto;">
+          </figure>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 
 <section class="section" id="BibTeX">
- <div class="container is-max-desktop content">
-   <h2 class="title">BibTeX</h2>
-   <pre><code>@article{TODO,
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@article{TODO,
 author={TODO, TODO and TODO, TODO},
 journal={TODO},
 title={TODO},
@@ -183,23 +179,23 @@ number={TODO},
 pages={TODO},
 doi={TODO}}
 }</code></pre>
- </div>
+  </div>
 </section>
 
 <footer class="footer">
- <div class="container">
-   <div class="columns is-centered">
-     <div class="column is-8">
-       <div class="content">
-         <p>
-           This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
-           <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
-           Commons Attribution-ShareAlike 4.0 International License</a>.
-         </p>
-       </div>
-     </div>
-   </div>
- </div>
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
 </footer>
 
 </body>
