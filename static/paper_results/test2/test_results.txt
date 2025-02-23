@@ -1,0 +1,20 @@
+Results over 100 trials:
+
+Standard CBF:
+  Collision Rate: 100.00%
+  Safety Violation Rate: 100.00%
+  Goal Reached Rate: 100.00%
+
+Fixed CRC:
+  Collision Rate: 0.00%
+  Safety Violation Rate: 100.00%
+  Goal Reached Rate: 100.00%
+
+Online CRC:
+  Collision Rate: 0.00%
+  Safety Violation Rate: 100.00%
+  Goal Reached Rate: 100.00%
+
+self.initial_pos = jnp.array([6.0, -5.0])
+self.goal_pos = jnp.array([8.0, 0.0])
+
