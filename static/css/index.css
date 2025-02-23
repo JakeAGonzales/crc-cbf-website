@@ -133,5 +133,8 @@ body {
   font-size: smaller;
 }
 
-
+.large-gif {
+  width: 120%;
+  max-width: 1200px;
+}
 
