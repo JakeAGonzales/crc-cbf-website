@@ -26,20 +26,34 @@
 </head>
 <body>
 
-<section class="hero">
-  <div class="hero-body">
-    <div class="container is-max-desktop">
-      <div class="columns is-centered">
-        <div class="column has-text-centered">
-          <h1 class="title is-2 publication-title">Safe Probabilistic Planning for Human-Robot Interaction using Conformal Risk Control</h1>
-          <div class="is-size-5 publication-authors">
-            <span class="author-block">
-              <a href="https://jakeagonzales.github.io">Jake Gonzales</a>
-            </span>
-          </div>
-
-          <div class="is-size-5 publication-authors">
-            <span class="author-block">University of Washington</span>
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-2 publication-title">Safe Probabilistic Planning for Human-Robot Interaction using Conformal Risk Control</h1>
+            <div class="is-size-5 publication-authors">
+              <span class="author-block">
+                <a href="https://jakeagonzales.github.io">Jake Gonzales</a>,&nbsp;
+              </span>
+              <span class="author-block">
+                <a href="https://depts.washington.edu/ctrl/people/kazuki_mizuta/">Kazuki Mizuta</a>,&nbsp;
+              </span>
+              <span class="author-block">
+                <a href="http://faculty.washington.edu/kymleung/">Karen Leung</a><sup>*</sup>,&nbsp;
+              </span>
+              <span class="author-block">
+                <a href="https://faculty.washington.edu/ratliffl/">Lillian Ratliff</a><sup>*</sup>
+              </span>
+            </div>
+  
+            <div class="is-size-5 publication-authors">
+              <span class="author-block">University of Washington</span>
+            </div>
+            
+            <div class="is-size-5 publication-authors">
+              <span class="author-block"><sup>*</sup>Equal advising</span>
+            </div>
           </div>
 
           <div class="column has-text-centered">
@@ -82,7 +96,7 @@
       <div class="columns is-centered">
         <div class="column is-one-third">
           <figure class="image">
-            <img src="static/images/hero.png" alt="Overview of safe human-robot interaction using control barrier functions">
+            <img src="static/images/hero_karen.png.png" alt="Overview of safe human-robot interaction using control barrier functions">
           </figure>
         </div>
       </div>
@@ -97,7 +111,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            This paper presents a novel probabilistic safety framework for human-robot interaction that combines control barrier functions (CBFs) with conformal risk control (CRC) to provide formal safety guarantees without making distributional assumptions about human behavior. Safe deployment of autonomous robots in human environments remains challenging due to the inherent unpredictability in human actions, with traditional approaches either relying on restrictive distributional assumptions or defaulting to overly conservative worse-case bounds. Our framework addresses these limitations by using CRC to quantify and control the prediction errors in CBF safety values, establishing formal guarantees on the probability of constraint satisfaction during interaction. We further introduce an online update scheme that dynamically adjusts the safety margins produced by CRC based on the current interaction context. Through extensive experiments in challenging human-robot navigation scenarios, we demonstrate that our approach significantly reduces collision rates and safety violations compared to standard CBFs while maintaining high success rates in goal-reaching tasks.
+            This paper presents a novel probabilistic safe control framework for human-robot interaction that combines control barrier functions (CBFs) with conformal risk control (CRC) to provide formal safety guarantees while considering complex human behavior. Safe deployment of autonomous robots in human environments remains challenging due to the inherent unpredictability in human actions, with traditional approaches either relying on restrictive distributional assumptions or defaulting to overly conservative worse-case bounds. Our approach uses CRC to quantify and control the prediction errors in CBF safety values and establishes formal guarantees on the probability of constraint satisfaction during interaction. We further introduce an online update scheme that dynamically adjusts the safety margins produced by CRC based on the current interaction context. Through experiments in challenging human-robot navigation scenarios, we demonstrate that our approach significantly reduces collision rates and safety violations compared to baseline methods while maintaining high success rates in goal-reaching tasks and efficient control.
           </p>
         </div>
       </div>
@@ -114,7 +128,7 @@
           <figure class="image" style="width: 80%; margin: 0 auto;">
             <img src="static/pdfs/all_trials_trajectories.pdf" alt="Generated trajectories from 100 trials" style="width: 100%; height: auto;">
             <figcaption class="has-text-centered">
-              Generated trajectories from 100 trials. (left) Online λ-CBF, (middle) Fixed λ-CBF, (right) Standard CBF. Red trajectories indicate collisions.
+              Trajectories generated from 100 single-agent head-on interactions with each method. Red trajectories indicate collisions.
             </figcaption>
           </figure>
         </div>
@@ -176,33 +190,15 @@
   </div>
 </section>
 
-<section class="section">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-full">
-        <h2 class="title is-3">Computing Safety Margins</h2>
-        <div class="content">
-          <figure class="image" style="width: 90%; margin: 0 auto;">
-            <img src="static/pdfs/empirical_risk.pdf" alt="Empirical risk analysis" style="width: 100%; height: auto;">
-          </figure>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
 
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
     <pre><code>@article{TODO,
-author={TODO, TODO and TODO, TODO},
-journal={TODO},
-title={TODO},
-year={TODO},
-volume={TODO},
-number={TODO},
-pages={TODO},
-doi={TODO}}
+author={Jake Gonzales, Kazuki Mizuta, Karen Leung, Lillian Ratliff},
+title={Safe Probabilistic Planning in Human-Robot Interaction using Conformal Risk Control},
+year={2025},
+}
 }</code></pre>
   </div>
 </section>
